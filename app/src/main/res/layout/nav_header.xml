@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
+
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profilepic"
@@ -11,6 +13,7 @@
         android:layout_marginTop="16dp"
         android:src="@drawable/instagram" />
 
+
     <TextView
         android:id="@+id/FullNameProfile"
         android:layout_width="wrap_content"
@@ -18,7 +21,7 @@
         android:layout_below="@id/profilepic"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="10dp"
-        android:text="Nourin Jahan"
+        android:text=""
         android:textColor="@color/black"
         android:textSize="16dp"
         android:textStyle="bold" />
@@ -32,10 +35,14 @@
         android:textColor="@color/teal_700"
         android:textStyle="bold"
         android:textSize="16dp"
-        android:layout_marginLeft="16dp"/>
+        android:layout_marginLeft="16dp"
+        />
+
 
     <View
         style="@style/line"
         android:layout_width="match_parent"
         android:layout_below="@+id/SectionProfile" />
+
+
 </RelativeLayout>
